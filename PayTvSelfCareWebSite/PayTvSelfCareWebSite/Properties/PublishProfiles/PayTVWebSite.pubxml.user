@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Debug</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Publish Codes\Testing\paytvdemo</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AboutUs.aspx">
+      <publishTime>02/18/2022 14:50:49</publishTime>
+    </File>
+    <File Include="AppLogin.aspx">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="bin/PayTvSelfCareWebSite.dll">
+      <publishTime>02/25/2022 18:28:36</publishTime>
+    </File>
+    <File Include="bin/PayTvSelfCareWebSite.pdb">
+      <publishTime>02/25/2022 18:28:36</publishTime>
+    </File>
+    <File Include="bin/System.Json.dll">
+      <publishTime>02/11/2022 15:45:00</publishTime>
+    </File>
+    <File Include="Contact.aspx">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="css/animate.css">
+      <publishTime>02/11/2022 15:45:00</publishTime>
+    </File>
+    <File Include="css/animation.css">
+      <publishTime>02/11/2022 15:45:00</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>02/11/2022 15:45:00</publishTime>
+    </File>
+    <File Include="css/et-line.css">
+      <publishTime>02/11/2022 15:45:00</publishTime>
+    </File>
+    <File Include="css/font-awesome.min.css">
+      <publishTime>02/11/2022 15:45:00</publishTime>
+    </File>
+    <File Include="css/meanmenu.css">
+      <publishTime>02/14/2022 19:01:01</publishTime>
+    </File>
+    <File Include="css/owl.carousel.css">
+      <publishTime>02/11/2022 15:45:00</publishTime>
+    </File>
+    <File Include="css/packeges.css">
+      <publishTime>02/24/2022 15:20:16</publishTime>
+    </File>
+    <File Include="css/responsive.css">
+      <publishTime>02/11/2022 15:45:00</publishTime>
+    </File>
+    <File Include="css/Style.css">
+      <publishTime>02/24/2022 15:33:14</publishTime>
+    </File>
+    <File Include="css/venobox.css">
+      <publishTime>02/11/2022 15:45:00</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>02/18/2022 15:02:24</publishTime>
+    </File>
+    <File Include="Disclaimor.aspx">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="font/material-design-icons/Material-Design-Icons.svg">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="font/material-design-icons/Material-Design-Icons.ttf">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="font/material-design-icons/Material-Design-Icons.woff">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="font/material-design-icons/Material-Design-Icons.woff2">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="font/material-design-icons/Material-Design-Iconsd41d.eot">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="font/roboto/Roboto-Bold.ttf">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="font/roboto/Roboto-Bold.woff">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="font/roboto/Roboto-Bold.woff2">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="font/roboto/Roboto-Light.ttf">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="font/roboto/Roboto-Light.woff">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="font/roboto/Roboto-Light.woff2">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="font/roboto/Roboto-Medium.ttf">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="font/roboto/Roboto-Medium.woff">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="font/roboto/Roboto-Medium.woff2">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="font/roboto/Roboto-Regular.ttf">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="font/roboto/Roboto-Regular.woff">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="font/roboto/Roboto-Regular.woff2">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="font/roboto/Roboto-Thin.ttf">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="font/roboto/Roboto-Thin.woff">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="font/roboto/Roboto-Thin.woff2">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="font/TahomaRegular.ttf">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/et-line.eot">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/et-line.svg">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/et-line.ttf">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/et-line.woff">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/et-lined41d.eot">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont5b62.eot">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont5b62.svg">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont5b62.ttf">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont5b62.woff">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont5b62.woff2">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfontd41d.eot">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular-2.html">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular-3.html">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular-4.html">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular-5.html">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.html">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regulard41d.html">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/iconic/css/material-design-iconic-font.css">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/iconic/css/material-design-iconic-font.min.css">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/iconic/fonts/Material-Design-Iconic-Font.eot">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/iconic/fonts/Material-Design-Iconic-Font.svg">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/iconic/fonts/Material-Design-Iconic-Font.ttf">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/iconic/fonts/Material-Design-Iconic-Font.woff">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/iconic/fonts/Material-Design-Iconic-Font.woff2">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/montserrat-light.eot">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/montserrat-light.svg">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/montserrat-light.ttf">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/montserrat-light.woff">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/montserrat-light.woff2">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="fonts/montserrat-lightd41d.eot">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="images/About/1-290x290.png">
+      <publishTime>02/11/2022 15:45:04</publishTime>
+    </File>
+    <File Include="images/About/about_banner.png">
+      <publishTime>02/11/2022 15:45:04</publishTime>
+    </File>
+    <File Include="images/About/about_section.png">
+      <publishTime>02/11/2022 15:45:04</publishTime>
+    </File>
+    <File Include="images/banners/AppView-Slider.png">
+      <publishTime>02/11/2022 15:45:03</publishTime>
+    </File>
+    <File Include="images/banners/choose-chennels.png">
+      <publishTime>02/11/2022 15:45:03</publishTime>
+    </File>
+    <File Include="images/banners/EnjoySlider.png">
+      <publishTime>02/11/2022 15:45:03</publishTime>
+    </File>
+    <File Include="images/banners/hd-banner.png">
+      <publishTime>02/11/2022 15:45:03</publishTime>
+    </File>
+    <File Include="images/banners/tv-shows.png">
+      <publishTime>02/11/2022 15:45:03</publishTime>
+    </File>
+    <File Include="images/banners/welcome-slider.png">
+      <publishTime>02/11/2022 15:45:03</publishTime>
+    </File>
+    <File Include="images/core-img/close.gif">
+      <publishTime>02/11/2022 15:45:04</publishTime>
+    </File>
+    <File Include="images/core-img/favicon.ico">
+      <publishTime>02/11/2022 15:45:04</publishTime>
+    </File>
+    <File Include="images/core-img/footer-logo.png">
+      <publishTime>02/11/2022 15:45:04</publishTime>
+    </File>
+    <File Include="images/core-img/header-logo.png">
+      <publishTime>02/11/2022 15:45:04</publishTime>
+    </File>
+    <File Include="images/core-img/next.gif">
+      <publishTime>02/11/2022 15:45:04</publishTime>
+    </File>
+    <File Include="images/core-img/preloader.gif">
+      <publishTime>02/11/2022 15:45:04</publishTime>
+    </File>
+    <File Include="images/core-img/prev.gif">
+      <publishTime>02/11/2022 15:45:04</publishTime>
+    </File>
+    <File Include="images/homepage/appstore.png">
+      <publishTime>02/11/2022 15:45:03</publishTime>
+    </File>
+    <File Include="images/homepage/Litilgirl.jpg">
+      <publishTime>02/11/2022 15:45:03</publishTime>
+    </File>
+    <File Include="images/homepage/lively-family-watching-tv.jpg">
+      <publishTime>02/11/2022 15:45:03</publishTime>
+    </File>
+    <File Include="images/homepage/mockup.png">
+      <publishTime>02/11/2022 15:45:03</publishTime>
+    </File>
+    <File Include="images/homepage/mockup2.png">
+      <publishTime>02/11/2022 15:45:03</publishTime>
+    </File>
+    <File Include="images/homepage/playstore.png">
+      <publishTime>02/11/2022 15:45:03</publishTime>
+    </File>
+    <File Include="images/homepage/showcase-1.png">
+      <publishTime>02/11/2022 15:45:03</publishTime>
+    </File>
+    <File Include="images/homepage/Smarttv.png">
+      <publishTime>02/11/2022 15:45:03</publishTime>
+    </File>
+    <File Include="images/homepage/whatisnext.png">
+      <publishTime>02/11/2022 15:45:03</publishTime>
+    </File>
+    <File Include="images/imagenotavailable.png">
+      <publishTime>02/11/2022 15:45:04</publishTime>
+    </File>
+    <File Include="images/location.png">
+      <publishTime>02/24/2022 15:28:09</publishTime>
+    </File>
+    <File Include="images/mail.png">
+      <publishTime>02/24/2022 15:27:56</publishTime>
+    </File>
+    <File Include="images/mobile.png">
+      <publishTime>02/24/2022 15:27:44</publishTime>
+    </File>
+    <File Include="images/others/10.png">
+      <publishTime>02/11/2022 15:45:02</publishTime>
+    </File>
+    <File Include="images/others/2.png">
+      <publishTime>02/11/2022 15:45:02</publishTime>
+    </File>
+    <File Include="images/others/3.png">
+      <publishTime>02/11/2022 15:45:02</publishTime>
+    </File>
+    <File Include="images/others/5.png">
+      <publishTime>02/11/2022 15:45:02</publishTime>
+    </File>
+    <File Include="images/others/7.png">
+      <publishTime>02/11/2022 15:45:02</publishTime>
+    </File>
+    <File Include="images/others/8.png">
+      <publishTime>02/11/2022 15:45:02</publishTime>
+    </File>
+    <File Include="images/others/9.png">
+      <publishTime>02/11/2022 15:45:02</publishTime>
+    </File>
+    <File Include="images/others/about-img.jpg">
+      <publishTime>02/11/2022 15:45:02</publishTime>
+    </File>
+    <File Include="images/others/BannerTEst.png">
+      <publishTime>02/11/2022 15:45:02</publishTime>
+    </File>
+    <File Include="images/others/blog-img.jpg">
+      <publishTime>02/11/2022 15:45:02</publishTime>
+    </File>
+    <File Include="images/others/clock.png">
+      <publishTime>02/11/2022 15:45:02</publishTime>
+    </File>
+    <File Include="images/others/contact-bg.jpg">
+      <publishTime>02/11/2022 15:45:02</publishTime>
+    </File>
+    <File Include="images/others/DAS DIGITAL LOGO STB MAIL08.12.png">
+      <publishTime>02/11/2022 15:45:02</publishTime>
+    </File>
+    <File Include="images/others/home-2.jpg">
+      <publishTime>02/11/2022 15:45:02</publishTime>
+    </File>
+    <File Include="images/others/Myprofilebg.png">
+      <publishTime>02/11/2022 15:45:02</publishTime>
+    </File>
+    <File Include="images/others/PaytvLogo.png">
+      <publishTime>02/14/2022 15:51:21</publishTime>
+    </File>
+    <File Include="images/others/Pdf.png">
+      <publishTime>02/11/2022 15:45:02</publishTime>
+    </File>
+    <File Include="images/others/process-img.jpg">
+      <publishTime>02/11/2022 15:45:02</publishTime>
+    </File>
+    <File Include="images/others/slider-1.jpg">
+      <publishTime>02/11/2022 15:45:02</publishTime>
+    </File>
+    <File Include="images/others/slider-2.jpg">
+      <publishTime>02/11/2022 15:45:02</publishTime>
+    </File>
+    <File Include="images/others/TryCompBanner.png">
+      <publishTime>02/11/2022 15:45:02</publishTime>
+    </File>
+    <File Include="images/packeges/11.png">
+      <publishTime>02/11/2022 15:45:04</publishTime>
+    </File>
+    <File Include="images/packeges/arrow.png">
+      <publishTime>02/11/2022 15:45:04</publishTime>
+    </File>
+    <File Include="images/packeges/right.png">
+      <publishTime>02/11/2022 15:45:04</publishTime>
+    </File>
+    <File Include="images/PDF/Interconnection_Regulation_03_Mar_2017.pdf">
+      <publishTime>02/11/2022 15:45:04</publishTime>
+    </File>
+    <File Include="images/PDF/QOS_Regulation_03_Mar_2017.pdf">
+      <publishTime>02/11/2022 15:45:04</publishTime>
+    </File>
+    <File Include="images/PDF/Tariff_Order_English_03 Mar_2017.pdf">
+      <publishTime>02/11/2022 15:45:04</publishTime>
+    </File>
+    <File Include="js/active.js">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="js/Default.js">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="js/fromjs/common.js">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="js/fromjs/Packeges.js">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="js/fromjs/slider.js">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="js/Global.js">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="js/jquery-1.12.3.min.js">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="js/jquery.easing.1.3.js">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="js/jquery.nav.min.js">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="js/jquery.scrollUp.js">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="js/jquery.sticky.min.js">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="js/map.active.js">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="js/meanmenu.js">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="js/owl.carousel.min.js">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="js/Reliable.js">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="js/simple-accordion.js">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="js/venobox.min.js">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="js/wow.js">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="js/YTplayer.min.js">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="MainMaster.Master">
+      <publishTime>02/25/2022 15:19:20</publishTime>
+    </File>
+    <File Include="packages.aspx">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="PrivacyPolicy.aspx">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="STBScheme.aspx">
+      <publishTime>02/18/2022 14:50:37</publishTime>
+    </File>
+    <File Include="TraiComplaints.aspx">
+      <publishTime>02/11/2022 15:45:10</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>02/25/2022 18:28:43</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

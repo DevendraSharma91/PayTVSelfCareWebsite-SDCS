@@ -1,0 +1,21 @@
+C:\devendra\PayTVSelfCareWebSite\PayTvSelfCareWebSite\PayTvSelfCareWebSite\bin\PayTvSelfCareWebSite.dll
+C:\devendra\PayTVSelfCareWebSite\PayTvSelfCareWebSite\PayTvSelfCareWebSite\bin\PayTvSelfCareWebSite.pdb
+C:\devendra\PayTVSelfCareWebSite\PayTvSelfCareWebSite\PayTvSelfCareWebSite\bin\System.Json.dll
+C:\devendra\PayTVSelfCareWebSite\PayTvSelfCareWebSite\PayTvSelfCareWebSite\obj\Debug\PayTvSelfCareWebSite.dll
+C:\devendra\PayTVSelfCareWebSite\PayTvSelfCareWebSite\PayTvSelfCareWebSite\obj\Debug\PayTvSelfCareWebSite.pdb
+C:\devendra\PayTVSelfCareWebSite\PayTvSelfCareWebSite\PayTvSelfCareWebSite\obj\Debug\PayTvSelfCareWebSite.csprojResolveAssemblyReference.cache
+D:\Release\PayTvSelfCareWebSite\Rel 1.0\PayTvSelfCareWebSite\PayTvSelfCareWebSite\bin\PayTvSelfCareWebSite.dll
+D:\Release\PayTvSelfCareWebSite\Rel 1.0\PayTvSelfCareWebSite\PayTvSelfCareWebSite\bin\PayTvSelfCareWebSite.pdb
+D:\Release\PayTvSelfCareWebSite\Rel 1.0\PayTvSelfCareWebSite\PayTvSelfCareWebSite\obj\Debug\PayTvSelfCareWebSite.csprojResolveAssemblyReference.cache
+D:\Release\PayTvSelfCareWebSite\Rel 1.0\PayTvSelfCareWebSite\PayTvSelfCareWebSite\obj\Debug\PayTvSelfCareWebSite.dll
+D:\Release\PayTvSelfCareWebSite\Rel 1.0\PayTvSelfCareWebSite\PayTvSelfCareWebSite\obj\Debug\PayTvSelfCareWebSite.pdb
+D:\PayTVSelfCare- Git\RSOFT-40733\PayTvSelfCareWebSite\PayTvSelfCareWebSite\bin\PayTvSelfCareWebSite.dll
+D:\PayTVSelfCare- Git\RSOFT-40733\PayTvSelfCareWebSite\PayTvSelfCareWebSite\bin\PayTvSelfCareWebSite.pdb
+D:\PayTVSelfCare- Git\RSOFT-40733\PayTvSelfCareWebSite\PayTvSelfCareWebSite\obj\Debug\PayTvSelfCareWebSite.csprojResolveAssemblyReference.cache
+D:\PayTVSelfCare- Git\RSOFT-40733\PayTvSelfCareWebSite\PayTvSelfCareWebSite\obj\Debug\PayTvSelfCareWebSite.dll
+D:\PayTVSelfCare- Git\RSOFT-40733\PayTvSelfCareWebSite\PayTvSelfCareWebSite\obj\Debug\PayTvSelfCareWebSite.pdb
+D:\SDCS_payTV\PayTvSelfCareWebSite\PayTvSelfCareWebSite\bin\PayTvSelfCareWebSite.dll
+D:\SDCS_payTV\PayTvSelfCareWebSite\PayTvSelfCareWebSite\bin\PayTvSelfCareWebSite.pdb
+D:\SDCS_payTV\PayTvSelfCareWebSite\PayTvSelfCareWebSite\obj\Debug\PayTvSelfCareWebSite.csprojResolveAssemblyReference.cache
+D:\SDCS_payTV\PayTvSelfCareWebSite\PayTvSelfCareWebSite\obj\Debug\PayTvSelfCareWebSite.dll
+D:\SDCS_payTV\PayTvSelfCareWebSite\PayTvSelfCareWebSite\obj\Debug\PayTvSelfCareWebSite.pdb

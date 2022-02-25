@@ -1,0 +1,320 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainMaster.master.cs" Inherits="PayTvSelfCareWebSite.MainMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>PayTVSelfCare</title>
+     <link rel="icon" href="images/others/PaytvLogo.png" type="image/png" sizes="16x16" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <link href="css/Style.css?v=<%= System.Configuration.ConfigurationManager.AppSettings["ReleaseVersion"] %>.0" rel="stylesheet" />
+    <link href="css/responsive.css?v=<%= System.Configuration.ConfigurationManager.AppSettings["ReleaseVersion"] %>.0" rel="stylesheet" />
+    <link href="css/animate.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/et-line.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/meanmenu.css?v=<%= System.Configuration.ConfigurationManager.AppSettings["ReleaseVersion"] %>.0" rel="stylesheet" />
+    <link href="css/owl.carousel.css" rel="stylesheet" />
+    <link href="css/venobox.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- =================== Welcome Area Start =================== -->
+        <section class="welcome_area" id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="contact_number">Have any question? <a href="tel:+91-9423544939 ">+91 9423544939 </a>, <a href="tel:02362 221399">+91 02362 221399</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="welcome_text_area" id="fullscreen_banner">
+                <!-- Header area start -->
+                <header class="header_area">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-xs-12">
+                                <!-- Main menu area start -->
+                                <div class="nav_search_area" id="main_menu">
+                                    <!-- Navigation area start -->
+                                    <div class="navigation_area">
+                                        <nav style="display: block;">
+                                            <ul id="main_nav">
+                                                <li id="homepage" class="current_page_item"><a href="javascript:void(0);" onclick="document.location.replace('../Home');">Home</a></li>
+                                                <li id="About"><a href="javascript:void(0);" onclick="document.location.replace('../AboutUs');">About Us</a></li>
+                                                <li id="CosumerCorner" class="dropdown"><a href="javascript:void(0);">Consumer Corner</a>
+                                                    <ul class="dropdown-content">
+                                                        <li id="DigitalPackage"><a href="javascript:void(0);" onclick="document.location.replace('../Packages');">Digital Packages</a></li>
+                                                        <li id="STBScheme"><a href="javascript:void(0);" onclick="document.location.replace('../STBScheme');">STB  Scheme </a></li>
+                                                        <li id="TraiComp"><a href="javascript:void(0);" onclick="document.location.replace('../TraiComplaints');">TRAI Compliance</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li id="ContactUs" class="current_page_item2 Contact"><a href="#contact">Contact Us</a></li>
+                                                <li id="QuickPay" style="display: none"><a class="QuickPay" href="#" title="Quick Pay">QuickPay</a></li>
+                                                <li class="dropdown"><a href="#">Sign In</a>
+                                                    <ul class="dropdown-content">
+                                                        <li id="SignIn"><a href="javascript:void(0);" onclick="window.open('https://sdcs.paytvselfcare.tv/SignIn');">Subscriber Sign In</a></li>
+                                                        <li id="LCOlogin"><a href="javascript:void(0);" onclick="window.open('http://27.106.16.53:91/')">LCO Sign In</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                  
+                                    </div>
+                                    <!-- logo area start -->
+                                    <div class="logo_area">
+                                        <a href="Default.aspx">
+
+                                            <img src="images/others/PaytvLogo.png" alt="logo" />
+                                            <%--<img src="images/core-img/header-logo.png" alt="logo"  />--%>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Main menu area start -->
+                            </div>
+                        </div>
+                        <!-- .end row -->
+                    </div>
+                    <!-- .end container -->
+                </header>
+
+                <div class="clearfix"></div>
+                <!-- =================== Welcome Area Start =================== -->
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+                <!-- =================== Contact Area Start =================== -->
+                <section class="contact_map_area" id="contact">
+                    <div class="contact_area section_padding_100">
+                        <!-- section title -->
+                        <div class="section_padding hidden-xs">
+                            <div class="section_title">
+                                <h2>Contact us</h2>
+                                <div class="line"></div>
+                                <div class="shadow_text">
+                                    <h2>contact</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- contact title -->
+                        <div class="contact_title">
+                            <h3>Send Us Message today!</h3>
+                        </div>
+
+                        <div class="contact_from">
+                            <form action="mail.php" method="post" id="main_contact_form">
+                                <!-- Message Input Area Start -->
+                                <div class="contact_input_area">
+                                    <div id="success_fail_info"></div>
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <!-- Single Input Area Start -->
+                                            <div class="col-sm-6 col-xs-12">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" />
+                                                </div>
+                                            </div>
+                                            <!-- Single Input Area Start -->
+                                            <div class="col-sm-6 col-xs-12">
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your E-mail" />
+                                                </div>
+                                            </div>
+                                            <!-- Single Input Area Start -->
+                                            <div class="col-sm-6 col-xs-12">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Your Subject" />
+                                                </div>
+                                            </div>
+                                            <!-- Single Input Area Start -->
+                                            <div class="col-sm-6 col-xs-12">
+                                                <div class="form-group">
+                                                    <input type="number" class="form-control" name="number" id="number" placeholder="Your Number *" />
+                                                </div>
+                                            </div>
+                                            <!-- Single Input Area Start -->
+                                            <div class="col-xs-12">
+                                                <div class="form-group textarea">
+                                                    <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Your Message *"></textarea>
+                                                </div>
+                                            </div>
+                                            <!-- Single Input Area Start -->
+                                            <div class="col-xs-12">
+                                                <button type="submit" class="btn btn-default">SEND MESSAGE</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Message Input Area End -->
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- google map -->
+                    <div class="map_area" id="map"></div>
+                </section>
+                <div class="clearfix"></div>
+                <!-- =================== Contact Area End =================== -->
+
+                <!-- =================== Footer Area Start =================== -->
+                <footer>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- footer text area -->
+                                <div class="footer_logo">
+                                    <%--<img src="images/CompanyLogo/ACNINDLogo.png">--%>
+                                    <img src="images/others/PaytvLogo.png" alt="logo" />
+                                </div>
+                                <div class="footer_text">
+                                    <div class="col-lg-5 col-lg-offset-1">
+                                        <div class="FooterAddress" style="color: #fff; text-align: left; font-size: 16px;">
+                                            <ul style="padding-left: 22px;">
+                                                <li class="mobile" style="margin-bottom: 12px;"> +91 9423544939  , +91 02362 221399 </li>
+                                                <li style="margin-bottom: 12px;">At & Post Kudal, Kelbaiwadi, <br/>Near Kelbaidevi Mandir,Taluka<br />
+                                                    Kudal, 416520, Dist - Sindhudurg,<br />
+                                                    Maharashtra [India]
+                                                </li>
+                                                <li class="mailId">shreecable.kudal@gmail.com shreedigitalsindhudurg@gmail.com</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <!-- footer logo -->
+
+                                        <!-- footer social links -->
+                                        <%--<div class="social_links" style="visibility:hidden">
+                                            <a target="_blank" href="https://www.facebook.com/reliablesoft.india/" class="wow fadeInDown" data-wow-delay="0s"><i class="fa fa-facebook"></i></a>
+                                            <a target="_blank" href="https://twitter.com/ReliableSoftIND" class="wow fadeInDown" data-wow-delay="0.2s"><i class="fa fa-twitter"></i></a>
+                                            <a href="#" class="wow fadeInDown" data-wow-delay="0.4s"><i class="fa fa-google-plus"></i></a>
+                                            <a target="_blank" href="https://in.pinterest.com/reliablesoftpl/" class="wow fadeInDown" data-wow-delay="0.6s"><i class="fa fa-pinterest"></i></a>
+                                            <a target="_blank" href="https://in.linkedin.com/company/reliablesoft-technologies-pvt-ltd---india" class="wow fadeInDown" data-wow-delay="0.8s"><i class="fa fa-linkedin"></i></a>
+                                        </div>--%>
+                                    </div>
+
+                                    <!-- footer copywrite text -->
+                                    <div class="copywrite_text" style="float: left; width: 100%;">
+                                        <p class="footer_links">
+                                            <a href="javascript:void(0);" target="_blank" onclick="document.location.replace('../PrivacyPolicy');">Privacy Policy</a> | <a target="_blank" href="javascript:void(0);" onclick="document.location.replace('../Disclaimor');">Disclaimer</a>
+                                        </p>
+                                        <p>Copyright © 2022-2023 ReliableSoft Technologies Pvt. Ltd. All rights reserved.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </footer>
+                <div id="Loadingbg" style="display: none;">
+                    <div class="LoadingBg">
+                    </div>
+                    <div class="cssload-box-loading">
+                    </div>
+                </div>
+    </form>
+
+    <!-- jquery  -->
+    <script src="js/jquery-1.12.3.min.js"></script>
+
+    <!-- bootstrap js  -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- owl carousel js  -->
+    <%--<script src="js/owl.carousel.min.js"></script>--%>
+
+    <!-- venobox js  -->
+    <script src="js/venobox.min.js"></script>
+
+    <!-- accordian js  -->
+    <script src="js/simple-accordion.js"></script>
+
+    <!-- easing js  -->
+    <script src="js/jquery.easing.1.3.js"></script>
+
+    <!-- nav js  -->
+    <script src="js/jquery.nav.min.js"></script>
+
+    <!-- scrollup js  -->
+    <script src="js/jquery.scrollUp.js"></script>
+
+    <!-- sticky js  -->
+    <script src="js/jquery.sticky.min.js"></script>
+
+    <!-- sticky js  -->
+    <script src="js/meanmenu.js"></script>
+
+    <!-- wow js  -->
+    <script src="js/wow.js"></script>
+
+    <!-- YTplayer js  -->
+    <script src="js/YTplayer.min.js"></script>
+
+    <%--    <!-- GOOGLE MAP -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk9KNSL1jTv4MY9Pza6w8DJkpI_nHyCnk"></script>
+
+    <!-- MAP Active js -->
+    <script src="js/map.active.js"></script>--%>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkq8PxaF6CY9uabI2EltK98PW_WfETf1E&callback=initMap" type="text/javascript"></script>
+    <script>
+
+
+
+        var map;
+        function initMap() {
+            var myLatLng = { lat: 16.0444562, lng: 73.4823048 };
+
+            //var map = new google.maps.Map(document.getElementById('footer-map'), {
+            //    zoom: 25,
+            //    center: myLatLng
+            //});
+
+            var marker = new google.maps.Marker({
+                position: myLatLng,
+                map: map,
+                title: 'SHREE DIGITAL CABLE SYSTEM'
+            });
+
+            var map1 = new google.maps.Map(document.getElementById('map'), {
+                zoom: 20,
+                center: myLatLng
+            });
+
+            var marker1 = new google.maps.Marker({
+                position: myLatLng,
+                map: map1,
+                title: 'SHREE DIGITAL CABLE SYSTEM'
+            });
+        }
+
+
+
+    </script>
+    <!-- Reliable -->
+    <script src="js/Reliable.js"></script>
+
+    <!-- Gloable -->
+    <script src="js/Global.js?v=<%= System.Configuration.ConfigurationManager.AppSettings["ReleaseVersion"] %>.0"></script>
+
+    <!-- All plugin active js  -->
+    <script src="js/active.js"></script>
+
+    <script src="js/fromjs/slider.js"></script>
+
+    <script src="js/Default.js?v=<%= System.Configuration.ConfigurationManager.AppSettings["ReleaseVersion"] %>.0"></script>
+    <script src="js/fromjs/common.js?v=<%= System.Configuration.ConfigurationManager.AppSettings["ReleaseVersion"] %>.0"></script>
+</body>
+</html>
