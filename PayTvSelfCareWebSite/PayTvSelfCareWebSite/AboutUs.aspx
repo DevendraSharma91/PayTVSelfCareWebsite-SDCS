@@ -14,9 +14,9 @@
                         <h1>About Us</h1>
                         <p>
                             <b>At SHREE DIGITAL CABLE SYSTEM</b> is one of the leading Multi Service Operator in India with <br />
-                            several years of experience in Content Distribution. We are distributing content and
+                            several years of experience in Content Distribution. <%--We are distributing content and
                             <br />
-                            entertaining close to <b>10 Lac </b>households across <b>India</b>.
+                            entertaining close to <b>10 Lac </b>households across <b>India</b>.--%>
                         </p>
                     </div>
                 </div>
@@ -27,7 +27,7 @@
             </div>
             <section class="about_text">
                 <p>We aim to provide Best in class and Innovative Services to our Channel Partners &amp; Subscribers for which we leverage the latest &amp; advanced technology. </p>
-                <p>We have tie ups with all the major Broadcasters and offering  400 Channels (350 SD &amp; 50 HD Channels) to provide the Subscribers with their “Choice of Content”. We provide a wide range of Bouquets (designed for various niche segments) and a-la-carte Channels (of all genres ranging from Sports, Entertainment, News to Spiritual Channels) to give Subscribers the liberty to make their own desired visual content packs. </p>
+                <p>We have tie ups with all the major Broadcasters and offering  300 Channels (260 SD &amp; 40 HD Channels) to provide the Subscribers with their “Choice of Content”. We provide a wide range of Bouquets (designed for various niche segments) and a-la-carte Channels (of all genres ranging from Sports, Entertainment, News to Spiritual Channels) to give Subscribers the liberty to make their own desired visual content packs. </p>
                 <p>We have the team of seasoned professionals who endeavour to provide you with the best Service &amp; Support so that we continue to be your “First Choice”.</p>
             </section>
 

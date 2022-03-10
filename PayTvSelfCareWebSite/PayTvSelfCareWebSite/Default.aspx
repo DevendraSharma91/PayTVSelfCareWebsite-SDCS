@@ -49,7 +49,7 @@
                             </div>
                             <!-- .section-heading -->
                             <div class="section-content">
-                                <p>We are offering 126 SD Channels and 108 HD Channels in bouquets and a-la-carte packs under Entertainment and Movies Category which you can enjoy with your family in your leisure time. </p>
+                                <p>We are offering 240 SD Channels and 60 HD Channels in bouquets and a-la-carte packs under Entertainment and Movies Category which you can enjoy with your family in your leisure time. </p>
 
                             </div>
                             <!-- .section-content -->
@@ -87,7 +87,7 @@
                             </div>
                             <!-- .section-heading -->
                             <div class="section-content">
-                                <p>Don’t miss out on any of your favourite games whether it is Cricket, Football or Wrestling. We bring 45 Sports Channels to your doorstep to unleash the sports buff in you so you can relax and pursue your interest after a hectic day.</p>
+                                <p>Don’t miss out on any of your favourite games whether it is Cricket, Football or Wrestling. We bring 20 Sports Channels to your doorstep to unleash the sports buff in you so you can relax and pursue your interest after a hectic day.</p>
                             </div>
                             <!-- .section-content -->
                         </div>
@@ -106,7 +106,7 @@
                             </div>
                             <!-- .section-heading -->
                             <div class="section-content">
-                                <p>Don’t miss out on any of your favourite games whether it is Cricket, Football or Wrestling. We bring 45 Sports Channels to your doorstep to unleash the sports buff in you so you can relax and pursue your interest after a hectic day.</p>
+                                <p>Don’t miss out on any of your favourite games whether it is Cricket, Football or Wrestling. We bring 20 Sports Channels to your doorstep to unleash the sports buff in you so you can relax and pursue your interest after a hectic day.</p>
                             </div>
                             <!-- .section-content -->
                         </div>
@@ -138,7 +138,7 @@
                             </div>
                             <!-- .section-heading -->
                             <div class="section-content">
-                                <p>Sometimes it is essential to keep your little ones busy. We bring you 27 Channels in this Category featuring Cartoon & Informative Channels so you can choose the right mix of Knowledge and Entertainment for your kids and let them enjoy.</p>
+                                <p>Sometimes it is essential to keep your little ones busy. We bring you 20 Channels in this Category featuring Cartoon & Informative Channels so you can choose the right mix of Knowledge and Entertainment for your kids and let them enjoy.</p>
 
                             </div>
                             <!-- .section-content -->
