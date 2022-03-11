@@ -49,7 +49,7 @@
                             </div>
                             <!-- .section-heading -->
                             <div class="section-content">
-                                <p>We are offering 240 SD Channels and 60 HD Channels in bouquets and a-la-carte packs under Entertainment and Movies Category which you can enjoy with your family in your leisure time. </p>
+                                <p>We are offering 260 SD Channels and 40 HD Channels in bouquets and a-la-carte packs under Entertainment and Movies Category which you can enjoy with your family in your leisure time. </p>
 
                             </div>
                             <!-- .section-content -->
